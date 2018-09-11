@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="集成学习,boosting,bagging," />
+  <meta name="keywords" content="Hexo, Who are U?" />
 
 
 
@@ -81,23 +81,16 @@
 
 
 
-<meta name="description" content="前言：以下内容主要是本人在学习台大林轩田机器学习技法课程中模型融合部分以及《统计学习方法》相关内容的学习心得，且不涉及公式推导和证明部分。    1.集成学习的动机与框架（1）为什么要用集成学习？集成学习是通过构建和组合多个较弱的学习器，得到一个较强的模型，是因为这样做有两个优点：第一，cure underfitting（降低偏差）：有助于防止欠拟合，它把所有弱的学习器融合起来，能达到提取组合特征">
-<meta name="keywords" content="集成学习,boosting,bagging">
-<meta property="og:type" content="article">
-<meta property="og:title" content="集成学习框架简介">
-<meta property="og:url" content="http://dzrx1020.com/2018/07/28/集成学习框架简介/index.html">
+<meta name="description" content="这是我的个人网站，仅用来分享个人的一些见解和体会，不喜勿喷！">
+<meta property="og:type" content="website">
+<meta property="og:title" content="皮卡丘去哪了">
+<meta property="og:url" content="http://dzrx1020.com/archives/2018/09/index.html">
 <meta property="og:site_name" content="皮卡丘去哪了">
-<meta property="og:description" content="前言：以下内容主要是本人在学习台大林轩田机器学习技法课程中模型融合部分以及《统计学习方法》相关内容的学习心得，且不涉及公式推导和证明部分。    1.集成学习的动机与框架（1）为什么要用集成学习？集成学习是通过构建和组合多个较弱的学习器，得到一个较强的模型，是因为这样做有两个优点：第一，cure underfitting（降低偏差）：有助于防止欠拟合，它把所有弱的学习器融合起来，能达到提取组合特征">
+<meta property="og:description" content="这是我的个人网站，仅用来分享个人的一些见解和体会，不喜勿喷！">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://pb0xohu5g.bkt.clouddn.com/18-7-26/6288396.jpg">
-<meta property="og:image" content="http://pb0xohu5g.bkt.clouddn.com/18-7-26/23486876.jpg">
-<meta property="og:image" content="http://pb0xohu5g.bkt.clouddn.com/18-7-27/91427960.jpg">
-<meta property="og:image" content="http://pb0xohu5g.bkt.clouddn.com/18-7-27/69726618.jpg">
-<meta property="og:updated_time" content="2018-07-28T02:05:28.057Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="集成学习框架简介">
-<meta name="twitter:description" content="前言：以下内容主要是本人在学习台大林轩田机器学习技法课程中模型融合部分以及《统计学习方法》相关内容的学习心得，且不涉及公式推导和证明部分。    1.集成学习的动机与框架（1）为什么要用集成学习？集成学习是通过构建和组合多个较弱的学习器，得到一个较强的模型，是因为这样做有两个优点：第一，cure underfitting（降低偏差）：有助于防止欠拟合，它把所有弱的学习器融合起来，能达到提取组合特征">
-<meta name="twitter:image" content="http://pb0xohu5g.bkt.clouddn.com/18-7-26/6288396.jpg">
+<meta name="twitter:title" content="皮卡丘去哪了">
+<meta name="twitter:description" content="这是我的个人网站，仅用来分享个人的一些见解和体会，不喜勿喷！">
 
 
 
@@ -127,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://dzrx1020.com/2018/07/28/集成学习框架简介/"/>
+  <link rel="canonical" href="http://dzrx1020.com/archives/2018/09/"/>
 
 
 
 
 
-  <title>集成学习框架简介 | 皮卡丘去哪了</title>
+  <title>归档 | 皮卡丘去哪了</title>
   
 
 
@@ -167,7 +160,7 @@
 <script type="text/javascript" src="/dist/APlayer.min.js"></script>
 <script type="text/javascript" src="/dist/music.js"></script>
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-left page-archive">
     <div class="headband"></div>
     <a href="https://github.com/dongdaye1020" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style></a>
 
@@ -316,386 +309,111 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-    
+  
+  
+  
+  <div class="post-block archive">
+    <div id="posts" class="posts-collapse">
+      <span class="archive-move-on"></span>
 
-  
+      <span class="archive-page-counter">
+        
+        
+        
+          
+        
+        嗯..! 目前共计 4 篇日志。 继续努力。
+      </span>
 
-  
-  
-  
+      
+
+        
+        
+        
+
+        
+          
+          <div class="collection-title">
+            <h1 class="archive-year" id="archive-year-2018">2018</h1>
+          </div>
+        
+        
+
+        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://dzrx1020.com/2018/07/28/集成学习框架简介/">
+    <header class="post-header">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Felix Dong">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://pb0xohu5g.bkt.clouddn.com/18-6-28/22734893.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="皮卡丘去哪了">
-    </span>
-
-    
-      <header class="post-header">
-
+      <h2 class="post-title">
         
+            <a class="post-title-link" href="/2018/09/11/数据分析方法论：（二）指导创业的常见数据分析框架/" itemprop="url">
+              
+                <span itemprop="name">数据分析方法论：（二）指导创业的常见数据分析框架</span>
+              
+            </a>
         
-          <h1 class="post-title" itemprop="name headline">集成学习框架简介</h1>
-        
+      </h2>
 
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-28T09:51:43+08:00">
-                2018-07-28
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/机器学习/" itemprop="url" rel="index">
-                    <span itemprop="name">机器学习</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2018/07/28/集成学习框架简介/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/07/28/集成学习框架简介/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-             <span id="/2018/07/28/集成学习框架简介/" class="leancloud_visitors" data-flag-title="集成学习框架简介">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  11
-                </span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <p><strong>前言</strong>：以下内容主要是本人在学习台大林轩田机器学习技法课程中模型融合部分以及《统计学习方法》相关内容的学习心得，且不涉及公式推导和证明部分。  </p>
-<hr>
-<h2 id="1-集成学习的动机与框架"><a href="#1-集成学习的动机与框架" class="headerlink" title="1.集成学习的动机与框架"></a>1.集成学习的动机与框架</h2><h3 id="（1）为什么要用集成学习？"><a href="#（1）为什么要用集成学习？" class="headerlink" title="（1）为什么要用集成学习？"></a>（1）为什么要用集成学习？</h3><p>集成学习是通过构建和组合多个较弱的学习器，得到一个较强的模型，是因为这样做有两个优点：<br><strong>第一，cure underfitting</strong>（降低偏差）：有助于防止欠拟合，它把所有弱的学习器融合起来，能达到提取组合特征的功能（每一个弱的学习器相当于组合提取了一次特征），起到了feature transform的作用，可以得到较为复杂的模型;<br><strong>第二，cure overfitting</strong>（降低方差）：有助于防止过拟合，把所有学到的学习器进行组合，将可能过拟合与欠拟合的学习器进行中和，容易得到一个中庸的模型，防止过拟合。  </p>
-<h3 id="（2）集成学习的框架简介"><a href="#（2）集成学习的框架简介" class="headerlink" title="（2）集成学习的框架简介"></a>（2）集成学习的框架简介</h3><p>按照集成学习组合策略方式的不同，可以将集成学习分为三类：<strong>uniform</strong>、<strong>non-uniform</strong>和<strong>conditional。</strong>（我们可以简单地理解为每人一票且同样重要、每人一票但要加权、看情况选择部分人加权投票）  </p>
-<p>从集成学习的定义可以看出，我们需要两步，一是得到不同的学习器g(t)，二是使用策略组合得到的g(t)。我们称第二步的过程为blending，在g(t)已知的情况下，blending对应的分类如下：  </p>
-<table>
-<thead>
-<tr>
-<th>aggregation</th>
-<th>blending</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>uniform</td>
-<td>voting/averaging</td>
-</tr>
-<tr>
-<td>non-uniform</td>
-<td>linear</td>
-</tr>
-<tr>
-<td>conditional</td>
-<td>stacking</td>
-</tr>
-</tbody>
-</table>
-<p>可以证明使用voting的blending策略组合g(t)可以得到更好的模型（主要是从期望角度证明了，平均组合后的G(t)可以降低模型的方差，能得到更加稳定的模型），而linear策略的本质则是通过线性变换达到feature transform的作用，stacking则是非线性变换（此策略可以得到更为复杂的模型，所以应该注意防止过拟合）。  </p>
-<p>那么在g(t)未知的情况，如何才能得到不同的g(t)？<br>通常情况下，可以选取模型、设置不同的参数、不同的样本数据等方法获得。但通常情况下，我们只有一份数据集，此时可以借鉴统计学中boostrap思想，利用已知的样本数据，通过放回的重抽样方法，获得不同的样本数据集。  </p>
-<p>回到集成学习的具体实现上，我们需要获得不同的g(t)，并使用策略进行组合，我们将这整个过程成为learing。使用不同blending策略，对应着不同的learing方法。  </p>
-<p>接下来可以通过三种代表性的learing方法，来实现集成学习。 </p>
-<hr>
-<h2 id="2-集成学习的初阶实现"><a href="#2-集成学习的初阶实现" class="headerlink" title="2.集成学习的初阶实现"></a>2.集成学习的初阶实现</h2><table>
-<thead>
-<tr>
-<th>aggregation</th>
-<th>blending</th>
-<th>learing</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>uniform</td>
-<td>voting/averaging</td>
-<td>bagging</td>
-</tr>
-<tr>
-<td>non-uniform</td>
-<td>linear</td>
-<td>boosting</td>
-</tr>
-<tr>
-<td>conditional</td>
-<td>stacking</td>
-<td>Decision Tree</td>
-</tr>
-</tbody>
-</table>
-<h3 id="（1）bagging"><a href="#（1）bagging" class="headerlink" title="（1）bagging"></a>（1）bagging</h3><p>正如第一部分所讲的，bagging其实就是利用boostrap方法对数据集进行重抽样，获得多个数据集，以多个数据集为基础，训练得到多个学习器g(t)，最后通过平均化形成最终的模型，直观地讲，在回归问题上是对每个最终结果求平均，在分类问题上则是多数表决原则。由于只使用bagging一直方法的情况很少，故此处不再赘述。  </p>
-<h3 id="（2）boosting"><a href="#（2）boosting" class="headerlink" title="（2）boosting"></a>（2）boosting</h3><p>boosting，顾名思义是通过迭代的方法不断提升组合模型的效果，也就是加法模型，最常见的就是adaboost。算法的一般步骤包括：<br>对于1,2,3,~,T轮迭代过程中,选择损失函数以及弱分类器g(t)后：<br>a.寻找能使损失函数最快降低的g(t)，及其对应的系数α；<br>b.更新加法模型后，再次进行a步骤。  </p>
-<p>adaboost是用来解决二分类问题的，其损失函数为指数损失函数。通过每一轮模型的误分率来调整样本权重以获得下一步的新g(t)，并以此为基础来计算该轮g(t)的系数。  </p>
-<p>按照李航老师的解释，可以将adaboost看成是<strong>损失函数是指数损失函数的前向分布算法</strong>(证明的话是先固定模型权重，证每轮更新的g(t)相等，然后再带入原式中，通过求偏导数，计算权重值)。 </p>
-<p>按照林轩田老师的解释，可以将adaboost看成<strong>损失函数是指数损失、处理二分类问题的Gradient Boosting算法</strong>，这样的好处是可以方便引出下面的GBDT算法，此处的证明有两个个要点 ：  </p>
-<p><strong>a.</strong> 第t+1轮的所有样本的权重和Z与前t轮模型的损失函数是相等的，此时可以将其看成是类似与svm中的margin，所以可以理解为每轮寻找适当的g(t)，使得Z变小<strong>（这里，李航老师给出了证明：adaboost的训练误差是小于所有轮权重和的乘积的，每轮的优化方向也是使得当前轮的Z最小）</strong>；  </p>
-<p><strong>b.</strong> 利用梯度下降的思想，把函数看成向量，也就是说再向量空间里，先找到最好的更新函数，也就是该函数的负梯度方向，再寻找最优的下降步长；</p>
-<p>此外，对于adaboost需要注意的是：<br>当每轮的g(t)的误分概率小于0.5时，其训练误差可以以指数速率下降。  </p>
-<p>这里李航老师根据训练误差上界继续推导即可得证，而林轩田老师则是以VC bound角度来看，经过O(logN)轮次迭代，训练误差将会减小到0的程度。</p>
-<p><strong>缺点：</strong>  对异常样本敏感，异常样本在迭代中可能会获得较高的权重，影响最终的强学习器的预测准确性。  </p>
-<p><strong>优点：</strong> Adaboost作为分类器时，分类精度很高，作为简单的二元分类器时，构造简单，结果可理解。不容易发生过拟合  </p>
-<p><strong>可以看出，boosting方法主要是减少模型的偏差。</strong></p>
-<h3 id="（3）Decision-Tree"><a href="#（3）Decision-Tree" class="headerlink" title="（3）Decision Tree"></a>（3）Decision Tree</h3><p>为什么说Decision Tree对应的conditional条件的aggregation？  </p>
-<p>简单来讲，对于任意一颗决策树，把每条路径看成是Qt(x)，与之对应的叶子节点看成是Gt(x)，那么该决策树就可以表示成的conditional条件的aggregation，具体如下：  </p>
-<p><img src="http://pb0xohu5g.bkt.clouddn.com/18-7-26/6288396.jpg" alt="">  </p>
-<p><strong>缺点：</strong> 预测结果缺乏平滑性，不适合处理高维稀疏数据  </p>
-<p><strong>优点：</strong> 可解释性强、可处理混合类型特征、 具体伸缩不变性（不用归一化特征）、 有特征组合的作用、可自然地处理缺失值、对异常点鲁棒、有特征选择作用、可扩展性强，容易并行  </p>
-<p>常见的决策树算法有ID３、C４.５和CART,具体的算法细节和注意点在另一篇文章中可以看到。（点此处）</p>
-<hr>
-<h2 id="3-集成学习的高阶实现"><a href="#3-集成学习的高阶实现" class="headerlink" title="3.集成学习的高阶实现"></a>3.集成学习的高阶实现</h2><p>从上面的讨论可以看出bagging主要是减少模型的方差，而boosting主要是减少模型的偏差，尝试将多个模型、策略再次组合，可以得到更加强健的模型。  </p>
-<h3 id="（1）Random-Forest"><a href="#（1）Random-Forest" class="headerlink" title="（1）Random Forest"></a>（1）Random Forest</h3><p>将bagging与Decision Tree结合，就得到了Random Forest。<br>此处的bagging是bagging in everywhere：一是在抽取数据时用了Bagging(这里也导致了其另一个优良性：无需额外交叉验证)；二是在构建每一个决策树时，随机抽取一部分特征，起到了特征转换的作用；三可以用数组p进行线性组合，来保持特征多样性。  </p>
-<p>两个特性：<br>第一，无需额外的交叉验证，用oob样本对应的决策树的平均预测值近似地代表最终预测值，通过该值的误差平方和近似地表示，最后模型的预测能力。可以证明oob（out  of bag）样本占比约为1/e;  </p>
-<p>第二，通过random test进行特诊筛选（random test的思路是对于某个特征，用随机值代替原值，比较代替前后的模型表现，若无影响，则可以忽略），一般有两种方式进行random test，一时用已知的随机分布例如高斯分布去代替，二是将该特征的原始值进行打乱重排，也就是permutation test（随机排序测试）。后者显然更科学，因为没有改变原始分布情况。random forest为了减少计算量，直接对比oob样本的ermutation test后的模型表现，做出特征筛选。</p>
-<p><strong>缺点：</strong>  随机森林在解决回归问题时，并没有像它在分类中表现的那么好，这是因为它并不能给出一个连续的输出。当进行回归时，随机森林不能够做出超越训练集数据范围的预测，这可能导致在某些特定噪声的数据进行建模时出现过度拟合。（PS:随机森林已经被证明在某些噪音较大的分类或者回归问题上回过拟合）。  </p>
-<p>对于小数据或者低维数据（特征较少的数据），可能不能产生很好的分类。  </p>
-<p><strong>优点：</strong> 随机森林算法有很强的抗干扰能力：对于不平衡数据集来说，随机森林可以平衡误差。如果有很大一部分的特征遗失，用RF算法仍然可以维持准确度。  </p>
-<p>随机森林抗过拟合能力比较强：对generlization error(泛化误差)使用的是无偏估计模型。  </p>
-<h3 id="（2）GBDT、XGboost、LightGBM以及Catboost"><a href="#（2）GBDT、XGboost、LightGBM以及Catboost" class="headerlink" title="（2）GBDT、XGboost、LightGBM以及Catboost"></a>（2）GBDT、XGboost、LightGBM以及Catboost</h3><h5 id="GBDT"><a href="#GBDT" class="headerlink" title="GBDT"></a>GBDT</h5><p>具体得算法步骤如下：  </p>
-<p><img src="http://pb0xohu5g.bkt.clouddn.com/18-7-26/23486876.jpg" alt="">  </p>
-<p>取g(t)为cart决策回归树时，就是GBDT了。当损失函数为误差平方和时，解决的时回归问题，当损失函数时Log-Likehood 是，解决的是分类问题。  </p>
-<p>注意：每次更新的g(t)是损失函数的负梯度方向（利用了损失函数一阶导数信息）。  </p>
-<p><strong>缺点：</strong>  boosting是个串行的过程，所以并行麻烦，需要考虑上下树之间的联系，计算复杂度大，不适合高维稀疏特征</p>
-<p><strong>优点：</strong> 能适应多种损失函数，不需要做特征的归一化，可以自动选择特征，模型可解释性好等等</p>
-<h5 id="XGboost"><a href="#XGboost" class="headerlink" title="XGboost"></a>XGboost</h5><p>XGboost可以看作时GBDT的高效的实现版本，相比于GBDT其损失函数中添加了正则项：对每棵树的复杂的进行了惩罚，具体如下所示：  </p>
-<p><img src="http://pb0xohu5g.bkt.clouddn.com/18-7-27/91427960.jpg" alt="">  </p>
-<p>此外，在优化目标函数时，使用了其二阶导数的信息，也就是牛顿法求最小（二阶泰勒展开）。</p>
-<p>关于XGboostd的详细问题，例如树结构确定方法（贪心法）、打分函数、树节点分裂方法、稀疏值处理、行采样、列采样、学习率（Shrinkage）、 支持自定义损失函数（需二阶可导）等，可在这里查看（插个眼）  </p>
-<p><strong>注意：</strong>XGBoost无法单独处理分类特征，它是基于CART的，所以只接收数值。在把分类数据提供给算法前，我们先得执行各种编码，如标签编码、均值编码、独热编码等。  </p>
-<p>LightGBM与XGBoost相比，速度更快，内存占用更低。<br>改进的地方：利用直方图算法减小内存占用和计算增益的计算量、建树过程优化Leaf-wise（基于梯度的单侧采样（GOSS）不依赖剪枝）、并行优化（特征并行【避免广播instance indices，减小网络通信量，但单个worker运算代价高】、数据并行【直方图算法，减少通信量】）  </p>
-<p>catboost和LightGBM类似，更适合处理含有分类特征的数据，CatBoost在分类变量索引方面具有相当的灵活性，它可以用在各种统计上的分类特征和数值特征的组合将分类值编码成数字（one_hot_max_size：如果feature包含的不同值的数目超过了指定值，将feature转化为float）。LightGBM也可以通过输入特征名称来处理分类特征。它无需进行独热编码（one-hot coding），而是使用一种特殊的算法直接查找分类特征的拆分值，最后不仅效果相似，而且速度更快。  </p>
-<p>以下列出三者部分参数的区别：  </p>
-<p><img src="http://pb0xohu5g.bkt.clouddn.com/18-7-27/69726618.jpg" alt="">  </p>
-<p>（来源于互联网，图侵删）</p>
-<p>以上是本文的全部内容，学的都是些皮毛，肯定存在很多错误，欢迎讨论指教！  </p>
-
-      
-    </div>
-    
-    
-    
-
-    <div>
-          
-            
-<div class="my_post_copyright">
-  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
-
-  <!-- JS库 sweetalert 可修改路径 -->
-  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <p><span>文章作者：</span><a href="/" title="访问 Felix Dong 的个人博客">Felix Dong</a></p>
-  <p><span>原始链接：</span><a href="/2018/07/28/集成学习框架简介/" title="集成学习框架简介">http://dzrx1020.com/2018/07/28/集成学习框架简介/</a>
-    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://dzrx1020.com/2018/07/28/集成学习框架简介/"  aria-label="复制成功！"></i></span>
-  </p>
-  <p><span>许可协议：</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>
-</div>
-<script>
-    var clipboard = new Clipboard('.fa-clipboard');
-      $(".fa-clipboard").click(function(){
-      clipboard.on('success', function(){
-        swal({
-          title: "",
-          text: '复制成功',
-          icon: "success",
-          showConfirmButton: true
-          });
-        });
-    });
-</script>
-
-
-          
-    </div>
-
-    
-
-    
-      <div>
-        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-  <div>大爷，您破费了！</div>
-  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-    <span>打赏</span>
-  </button>
-  <div id="QR" style="display: none;">
-
-    
-      <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="http://pb0xohu5g.bkt.clouddn.com/18-6-30/3532712.jpg" alt="Felix Dong 微信支付"/>
-        <p>微信支付</p>
-      </div>
-    
-
-    
-      <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="http://pb0xohu5g.bkt.clouddn.com/18-6-30/90092304.jpg" alt="Felix Dong 支付宝"/>
-        <p>支付宝</p>
-      </div>
-    
-
-    
-
-  </div>
-</div>
-
-      </div>
-    
-
-    
-
-      <div>
-        
-        <div>
-    
-        <div style="text-align:center;color: #ccc;font-size:14px;">-------------文章被你看完啦<i class="fa fa-paw"></i>要不从头再看一遍？-------------</div>
-    
-</div>
-
-        
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-09-11T15:35:11+08:00"
+              content="2018-09-11" >
+          09-11
+        </time>
       </div>
 
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/集成学习/" rel="tag"># 集成学习</a>
-          
-            <a href="/tags/boosting/" rel="tag"># boosting</a>
-          
-            <a href="/tags/bagging/" rel="tag"># bagging</a>
-          
-        </div>
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/08/01/推荐系统实战（1）：什么是好的推荐系统/" rel="prev" title="推荐系统实战（1）：什么是好的推荐系统">
-                推荐系统实战（1）：什么是好的推荐系统 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </div>
-  
-  
-  
+    </header>
   </article>
 
 
 
-    <div class="post-spread">
       
+
+        
+        
+        
+
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2018/09/11/机器学习总结：打卡（1）/" itemprop="url">
+              
+                <span itemprop="name">机器学习总结：打卡（1）</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-09-11T15:29:35+08:00"
+              content="2018-09-11" >
+          09-11
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
     </div>
   </div>
+  
+  
+  
+
+  
+
 
 
           </div>
@@ -703,18 +421,6 @@
 
 
           
-
-  
-    <div class="comments" id="comments">
-      
-        <div onclick="showGitment()" id="gitment-display-button">显示 Gitment 评论</div>
-        <div id="gitment-container" style="display:none"></div>
-      
-    </div>
-
-  
-
-
 
         </div>
         
@@ -735,17 +441,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -859,22 +556,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-集成学习的动机与框架"><span class="nav-number">1.</span> <span class="nav-text">1.集成学习的动机与框架</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#（1）为什么要用集成学习？"><span class="nav-number">1.1.</span> <span class="nav-text">（1）为什么要用集成学习？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（2）集成学习的框架简介"><span class="nav-number">1.2.</span> <span class="nav-text">（2）集成学习的框架简介</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-集成学习的初阶实现"><span class="nav-number">2.</span> <span class="nav-text">2.集成学习的初阶实现</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#（1）bagging"><span class="nav-number">2.1.</span> <span class="nav-text">（1）bagging</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（2）boosting"><span class="nav-number">2.2.</span> <span class="nav-text">（2）boosting</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（3）Decision-Tree"><span class="nav-number">2.3.</span> <span class="nav-text">（3）Decision Tree</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-集成学习的高阶实现"><span class="nav-number">3.</span> <span class="nav-text">3.集成学习的高阶实现</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#（1）Random-Forest"><span class="nav-number">3.1.</span> <span class="nav-text">（1）Random Forest</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（2）GBDT、XGboost、LightGBM以及Catboost"><span class="nav-number">3.2.</span> <span class="nav-text">（2）GBDT、XGboost、LightGBM以及Catboost</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#GBDT"><span class="nav-number">3.2.0.1.</span> <span class="nav-text">GBDT</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#XGboost"><span class="nav-number">3.2.0.2.</span> <span class="nav-text">XGboost</span></a></li></ol></li></ol></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
@@ -1036,10 +717,6 @@
 
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
-
-
 
   
 
@@ -1086,34 +763,6 @@
 
     
 
-    
-      <script type="text/javascript">
-      function renderGitment(){
-        var gitment = new Gitmint({
-            id: '1532742703000',
-            owner: 'dongdaye1020',
-            repo: 'blog_comment',
-            
-            lang: "zh-Hans" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
-            
-            oauth: {
-            
-            
-                client_secret: '958ac01daac21e3d61a08bb3c473fd06974a31a9',
-            
-                client_id: 'a0a6533a159c97afd353'
-            }});
-        gitment.render('gitment-container');
-      }
-
-      
-      function showGitment(){
-        document.getElementById("gitment-display-button").style.display = "none";
-        document.getElementById("gitment-container").style.display = "block";
-        renderGitment();
-      }
-      
-      </script>
     
 
 
@@ -1562,6 +1211,26 @@
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
 
