@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dzrx1020.com/"/>
-  <updated>2018-09-11T07:38:30.534Z</updated>
+  <updated>2018-09-11T07:50:39.949Z</updated>
   <id>http://dzrx1020.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据分析方法论：（一）数据分析的价值</title>
+    <link href="http://dzrx1020.com/2018/09/11/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95%E8%AE%BA%EF%BC%9A%EF%BC%88%E4%B8%80%EF%BC%89%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E7%9A%84%E4%BB%B7%E5%80%BC/"/>
+    <id>http://dzrx1020.com/2018/09/11/数据分析方法论：（一）数据分析的价值/</id>
+    <published>2018-09-11T07:49:47.000Z</published>
+    <updated>2018-09-11T07:50:39.949Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="如何利用数据驱动更好的决策？"><a href="#如何利用数据驱动更好的决策？" class="headerlink" title="如何利用数据驱动更好的决策？"></a>如何利用数据驱动更好的决策？</h3><ul><li>数据分析的目的是以量化的角度去分析业务问题并得出结论。　<br></li><li>量化的重点：寻找能反映业务水平的关键指标</li><li>分析的角度：找到合适测试比较方法<br><br></li></ul><hr><h5 id="一、什么是好的指标？"><a href="#一、什么是好的指标？" class="headerlink" title="一、什么是好的指标？"></a>一、什么是好的指标？</h5><p>好的指标常常具备的特性：</p><ol><li>可比性：在同一维度下可以比较</li><li>简单易懂</li><li>往往是比率指标</li><li>可以付诸行动，影响下一步决策   <br></li></ol><p>注意五点：</p><ul><li>定量数据排斥主观因素；定性数据吸纳主观因素</li><li>避免虚荣指标（与核心业务偏离很远的指标），寻找可付诸行动的指标（活跃用户占比就比活跃用户更好）</li><li>探索性指标往往会带来机遇（通过探索，发掘我们不知道我们不知道的现象）</li><li>后见性和先见性的数据都可以指导行动，区别只是先见性数据能预示将来会发生什么，缩短迭代周期，精益求精</li><li>在两个数据指标之间发现相关性不是一件坏事，发现相关性可以帮助你预测未来，而发现因果关系意味着你可以改变未来（A/B test实验）</li><li>根据实际的情况，调整初期设定的指标目标阈值；</li></ul><hr><h5 id="二、如何使用恰当的分析方法分析指标，得出结论知道决策？"><a href="#二、如何使用恰当的分析方法分析指标，得出结论知道决策？" class="headerlink" title="二、如何使用恰当的分析方法分析指标，得出结论知道决策？"></a>二、如何使用恰当的分析方法分析指标，得出结论知道决策？</h5><p>常用的四种分析思维：</p><ol><li>市场细分：通过分析用户之间各个所属特征属性，挖掘出拥有某种共同特征的用户群，从而比较不同细分群体在某个指标下的差异；</li><li>同期群分析：以时间为分析维度，跟踪用户的生命周期，比较处于“同阶段”时期的用户群体之间的指标差异；</li><li>AB测试：假设其他条件保持不变，仅考虑体验中的某一属性（如链接的颜色）对被试用户相关指标值的影响；</li><li>多变量分析：同时改变产品的多个属性，运用统计学方法检验哪个变量与结果指标的相关性最大；</li></ol><hr><h5 id="三、如何设计一个精益画布？"><a href="#三、如何设计一个精益画布？" class="headerlink" title="三、如何设计一个精益画布？"></a>三、如何设计一个精益画布？</h5><p>精益画布好比一个简明的可视化商业说明书：</p><p><img src="http://pb0xohu5g.bkt.clouddn.com/18-8-28/67532759.jpg" alt=""></p><ol><li>提出想解决哪方面的问题；</li><li>客户群体分类：目标市场是什么？</li><li>独特卖点：产品的特别之处？</li><li>解决问题的方案；</li><li>渠道分析；</li><li>收入分析；</li><li>成本分析；</li><li>关键指标；</li><li>门槛优势；</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;如何利用数据驱动更好的决策？&quot;&gt;&lt;a href=&quot;#如何利用数据驱动更好的决策？&quot; class=&quot;headerlink&quot; title=&quot;如何利用数据驱动更好的决策？&quot;&gt;&lt;/a&gt;如何利用数据驱动更好的决策？&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;数据分析的目的是以量化的角度去分
+      
+    
+    </summary>
+    
+      <category term="数据分析" scheme="http://dzrx1020.com/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+    
+      <category term="指标设计要点" scheme="http://dzrx1020.com/tags/%E6%8C%87%E6%A0%87%E8%AE%BE%E8%AE%A1%E8%A6%81%E7%82%B9/"/>
+    
+      <category term="常见分析方法" scheme="http://dzrx1020.com/tags/%E5%B8%B8%E8%A7%81%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>数据分析方法论：（二）指导创业的常见数据分析框架</title>
