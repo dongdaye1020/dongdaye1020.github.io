@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dzrx1020.com/"/>
-  <updated>2018-09-11T07:50:39.949Z</updated>
+  <updated>2018-10-31T04:50:16.429Z</updated>
   <id>http://dzrx1020.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习资料参考</title>
+    <link href="http://dzrx1020.com/2018/10/31/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E5%8F%82%E8%80%83/"/>
+    <id>http://dzrx1020.com/2018/10/31/学习资料参考/</id>
+    <published>2018-10-31T04:47:50.000Z</published>
+    <updated>2018-10-31T04:50:16.429Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="数据分析参考资料"><a href="#数据分析参考资料" class="headerlink" title="数据分析参考资料"></a>数据分析参考资料</h3><h4 id="基本技术栈"><a href="#基本技术栈" class="headerlink" title="基本技术栈"></a>基本技术栈</h4><ol><li><strong>基本的SQL取数能力</strong>：Hive-SQL、MySQL；</li><li><strong>机器学习算法及建模应用</strong>：python；</li><li><strong>数据分析方法论</strong>：专题分析方法、业务场景分析能力；</li><li><strong>统计学基础</strong>：概率论与数理统计；</li><li><strong>简单的Linux基础</strong>；</li></ol><h4 id="推荐资料下载"><a href="#推荐资料下载" class="headerlink" title="推荐资料下载"></a>推荐资料下载</h4><ul><li>SQL学习：<a href="http://pb0xohu5g.bkt.clouddn.com/Hive%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8D%97.pdf" target="_blank" rel="noopener">Hive编程指南</a>、<a href="http://pb0xohu5g.bkt.clouddn.com/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E7%AC%AC4%E7%89%88.pdf" target="_blank" rel="noopener">SQL必知必会</a>、<a href="http://pb0xohu5g.bkt.clouddn.com/Hadoop%E6%9E%84%E5%BB%BA%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E5%AE%9E%E8%B7%B5.epub" target="_blank" rel="noopener">hive数据仓库</a></li><li>机器学习算法理论学习：<a href="http://pb0xohu5g.bkt.clouddn.com/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95.pdf" target="_blank" rel="noopener">统计学习方法</a>、机器学习基石<a href="https://www.bilibili.com/video/av28329973" target="_blank" rel="noopener">视频</a> <a href="http://pb0xohu5g.bkt.clouddn.com/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3.zip" target="_blank" rel="noopener">笔记</a>、机器学习技法<a href="https://www.bilibili.com/video/av12469267" target="_blank" rel="noopener">视频</a> <a href="http://pb0xohu5g.bkt.clouddn.com/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95.zip" target="_blank" rel="noopener">笔记</a>、吴恩达机器学习<a href="https://www.bilibili.com/video/av9912938" target="_blank" rel="noopener">视频</a> <a href="http://pb0xohu5g.bkt.clouddn.com/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf" target="_blank" rel="noopener">笔记</a></li><li>机器学习建模应用（培养coding能力）：机器学习实战<a href="http://pb0xohu5g.bkt.clouddn.com/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98.pdf" target="_blank" rel="noopener">书</a> <a href="http://pb0xohu5g.bkt.clouddn.com/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98%E6%BA%90%E7%A0%81python2.zip" target="_blank" rel="noopener">代码</a>、<a href="https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="noopener">廖雪峰的python教程</a></li><li>机器学习python库学习：<a href="http://pb0xohu5g.bkt.clouddn.com/%E5%88%A9%E7%94%A8Python%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.epub" target="_blank" rel="noopener">利用python进行数据分析</a>、<a href="http://sklearn.apachecn.org/cn/0.19.0/index.html" target="_blank" rel="noopener">sklearn学习</a></li><li>数据学习方法论：<a href="http://pb0xohu5g.bkt.clouddn.com/%E7%B2%BE%E7%9B%8A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.epub" target="_blank" rel="noopener">精益数据分析</a>、<a href="http://pb0xohu5g.bkt.clouddn.com/%E6%95%B0%E6%8D%AE%E5%8C%96%E7%AE%A1%E7%90%86%EF%BC%9A%E6%B4%9E%E6%82%89%E9%9B%B6%E5%94%AE%E5%8F%8A%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E8%BF%90%E8%90%A5%20.pdf" target="_blank" rel="noopener">数据化管理：洞悉零售及电子商务运营</a>、<a href="http://pb0xohu5g.bkt.clouddn.com/%E5%A2%9E%E9%95%BF%E9%BB%91%E5%AE%A2%E5%A6%82%E4%BD%95%E4%BD%8E%E6%88%90%E6%9C%AC%E5%AE%9E%E7%8E%B0%E7%88%86%E5%8F%91%E5%BC%8F%E6%88%90%E9%95%BF.epub" target="_blank" rel="noopener">增长黑客</a>、<a href="http://pb0xohu5g.bkt.clouddn.com/%E5%A2%9E%E9%95%BF%E9%BB%91%E5%AE%A2%E5%AE%9E%E6%88%98.epub" target="_blank" rel="noopener">增长黑客2</a></li><li>加分项：excel学习、数据展示可视化</li></ul><hr><h3 id="数据挖掘、推荐算法参考资料"><a href="#数据挖掘、推荐算法参考资料" class="headerlink" title="数据挖掘、推荐算法参考资料"></a>数据挖掘、推荐算法参考资料</h3><h4 id="基本技术栈-1"><a href="#基本技术栈-1" class="headerlink" title="基本技术栈"></a>基本技术栈</h4><ol><li><strong>基本的SQL取数能力</strong>：Hive-SQL、MySQL；</li><li><strong>简单的Linux基础</strong>；</li><li><strong>较好的数据结构算法基础及工程能力</strong>：数据结构学习、剑指offer、leetcode、python学习、Scala或者Java学习；</li><li><strong>熟练掌握常用的机器学习算法及实际应用过程</strong>：例如集成学习、推荐算法等；</li><li><strong>大数据比赛经历</strong>；</li><li><strong>掌握基本深度学习算法及应用工具</strong>：CNN、RNN等，keras、TensorFlow等；</li></ol><h4 id="推荐资料下载-1"><a href="#推荐资料下载-1" class="headerlink" title="推荐资料下载"></a>推荐资料下载</h4><ul><li>数据结构python语言描述 <a href="http://pb0xohu5g.bkt.clouddn.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20Python%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0_%E8%A3%98%E5%AE%97%E7%87%95.pdf" target="_blank" rel="noopener">书</a> <a href="https://www.bilibili.com/video/av20982396" target="_blank" rel="noopener">视频1</a> <a href="https://www.bilibili.com/video/av21540971" target="_blank" rel="noopener">视频2</a> <a href="http://pb0xohu5g.bkt.clouddn.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%BD%91%E9%A1%B5%E7%89%88.zip" target="_blank" rel="noopener">网页</a> <a href="http://pb0xohu5g.bkt.clouddn.com/AlgorithmsByPython.zip" target="_blank" rel="noopener">代码示范</a></li><li><a href="https://www.nowcoder.com/ta/coding-interviews" target="_blank" rel="noopener">剑指offer</a>、<a href="https://leetcode-cn.com/problemset/all/" target="_blank" rel="noopener">leetcode</a></li><li><a href="http://pb0xohu5g.bkt.clouddn.com/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%AE%9E%E8%B7%B5.pdf" target="_blank" rel="noopener">推荐算法实战</a></li><li><a href="https://www.bilibili.com/video/av10590361" target="_blank" rel="noopener">李宏毅机器学习</a>、<a href="https://www.bilibili.com/video/av9770302" target="_blank" rel="noopener">李宏毅深度学习</a></li><li>吴恩达深度学习 <a href="http://pb0xohu5g.bkt.clouddn.com/deeplearning_ai_books-master.zip" target="_blank" rel="noopener">笔记</a></li></ul><hr><p>另外，推荐两本新书：百面机器学习、美团机器学习实战 <br><br>还有几个学习网站：<a href="https://www.nowcoder.com" target="_blank" rel="noopener">牛客网</a>（刷题求职）、<a href="https://www.shiyanlou.com/" target="_blank" rel="noopener">实验楼</a>、<a href="https://www.imooc.com/" target="_blank" rel="noopener">慕课网</a>、<a href="http://www.w3school.com.cn/" target="_blank" rel="noopener">w3school</a> 、<a href="http://linux.vbird.org/" target="_blank" rel="noopener">鸟哥私房菜</a><br><br>大数据竞赛网站：<a href="https://tianchi.aliyun.com/competition/index.htm" target="_blank" rel="noopener">天池</a>、<a href="https://www.datafountain.cn/" target="_blank" rel="noopener">datafountain</a>、<a href="http://www.pkbigdata.com/" target="_blank" rel="noopener">pkbigdata</a><br><br><br><br><br><br><br><br></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;数据分析参考资料&quot;&gt;&lt;a href=&quot;#数据分析参考资料&quot; class=&quot;headerlink&quot; title=&quot;数据分析参考资料&quot;&gt;&lt;/a&gt;数据分析参考资料&lt;/h3&gt;&lt;h4 id=&quot;基本技术栈&quot;&gt;&lt;a href=&quot;#基本技术栈&quot; class=&quot;headerlink
+      
+    
+    </summary>
+    
+      <category term="学习资料" scheme="http://dzrx1020.com/categories/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/"/>
+    
+    
+      <category term="数据分析" scheme="http://dzrx1020.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+      <category term="算法工程师" scheme="http://dzrx1020.com/tags/%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88/"/>
+    
+  </entry>
   
   <entry>
     <title>数据分析方法论：（一）数据分析的价值</title>
