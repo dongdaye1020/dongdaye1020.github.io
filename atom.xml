@@ -1,188 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>皮卡丘去哪了</title>
+  <title>我的皮卡丘去哪了</title>
   
   <subtitle>寻找皮卡丘ing</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dzrx1020.com/"/>
-  <updated>2018-10-31T05:09:11.220Z</updated>
+  <updated>2018-12-06T09:27:18.022Z</updated>
   <id>http://dzrx1020.com/</id>
   
   <author>
-    <name>Felix Dong</name>
+    <name>Felix</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>学习资料参考</title>
-    <link href="http://dzrx1020.com/2018/10/31/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E5%8F%82%E8%80%83/"/>
-    <id>http://dzrx1020.com/2018/10/31/学习资料参考/</id>
-    <published>2018-10-31T04:47:50.000Z</published>
-    <updated>2018-10-31T05:09:11.220Z</updated>
+    <title>START</title>
+    <link href="http://dzrx1020.com/2018/12/06/START/"/>
+    <id>http://dzrx1020.com/2018/12/06/START/</id>
+    <published>2018-12-06T09:21:17.000Z</published>
+    <updated>2018-12-06T09:27:18.022Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="数据分析参考资料"><a href="#数据分析参考资料" class="headerlink" title="数据分析参考资料"></a>数据分析参考资料</h3><h4 id="基本技术栈"><a href="#基本技术栈" class="headerlink" title="基本技术栈"></a>基本技术栈</h4><ol><li><strong>基本的SQL取数能力</strong>：Hive-SQL、MySQL；</li><li><strong>机器学习算法及建模应用</strong>：python；</li><li><strong>数据分析方法论</strong>：专题分析方法、业务场景分析能力；</li><li><strong>统计学基础</strong>：概率论与数理统计；</li><li><strong>简单的Linux基础</strong>；</li><li><strong>加分项</strong>：excel学习、数据展示可视化</li></ol><h4 id="推荐资料下载"><a href="#推荐资料下载" class="headerlink" title="推荐资料下载"></a>推荐资料下载</h4><ul><li>SQL学习：<a href="http://pb0xohu5g.bkt.clouddn.com/Hive%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8D%97.pdf" target="_blank" rel="noopener">Hive编程指南</a>、<a href="http://pb0xohu5g.bkt.clouddn.com/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E7%AC%AC4%E7%89%88.pdf" target="_blank" rel="noopener">SQL必知必会</a>、<a href="http://pb0xohu5g.bkt.clouddn.com/Hadoop%E6%9E%84%E5%BB%BA%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E5%AE%9E%E8%B7%B5.epub" target="_blank" rel="noopener">hive数据仓库</a></li><li>机器学习算法理论学习：<a href="http://pb0xohu5g.bkt.clouddn.com/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95.pdf" target="_blank" rel="noopener">统计学习方法</a>、机器学习基石<a href="https://www.bilibili.com/video/av28329973" target="_blank" rel="noopener">视频</a> <a href="http://pb0xohu5g.bkt.clouddn.com/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3.zip" target="_blank" rel="noopener">笔记</a>、机器学习技法<a href="https://www.bilibili.com/video/av12469267" target="_blank" rel="noopener">视频</a> <a href="http://pb0xohu5g.bkt.clouddn.com/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95.zip" target="_blank" rel="noopener">笔记</a>、吴恩达机器学习<a href="https://www.bilibili.com/video/av9912938" target="_blank" rel="noopener">视频</a> <a href="http://pb0xohu5g.bkt.clouddn.com/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf" target="_blank" rel="noopener">笔记</a></li><li>机器学习建模应用（培养coding能力）：机器学习实战<a href="http://pb0xohu5g.bkt.clouddn.com/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98.pdf" target="_blank" rel="noopener">书</a> <a href="http://pb0xohu5g.bkt.clouddn.com/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98%E6%BA%90%E7%A0%81python2.zip" target="_blank" rel="noopener">代码</a>、<a href="https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="noopener">廖雪峰的python教程</a></li><li>机器学习python库学习：<a href="http://pb0xohu5g.bkt.clouddn.com/%E5%88%A9%E7%94%A8Python%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.epub" target="_blank" rel="noopener">利用python进行数据分析</a>、<a href="http://sklearn.apachecn.org/cn/0.19.0/index.html" target="_blank" rel="noopener">sklearn学习</a></li><li>数据学习方法论：<a href="http://pb0xohu5g.bkt.clouddn.com/%E7%B2%BE%E7%9B%8A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.epub" target="_blank" rel="noopener">精益数据分析</a>、<a href="http://pb0xohu5g.bkt.clouddn.com/%E6%95%B0%E6%8D%AE%E5%8C%96%E7%AE%A1%E7%90%86%EF%BC%9A%E6%B4%9E%E6%82%89%E9%9B%B6%E5%94%AE%E5%8F%8A%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E8%BF%90%E8%90%A5%20.pdf" target="_blank" rel="noopener">数据化管理：洞悉零售及电子商务运营</a>、<a href="http://pb0xohu5g.bkt.clouddn.com/%E5%A2%9E%E9%95%BF%E9%BB%91%E5%AE%A2%E5%A6%82%E4%BD%95%E4%BD%8E%E6%88%90%E6%9C%AC%E5%AE%9E%E7%8E%B0%E7%88%86%E5%8F%91%E5%BC%8F%E6%88%90%E9%95%BF.epub" target="_blank" rel="noopener">增长黑客</a>、<a href="http://pb0xohu5g.bkt.clouddn.com/%E5%A2%9E%E9%95%BF%E9%BB%91%E5%AE%A2%E5%AE%9E%E6%88%98.epub" target="_blank" rel="noopener">增长黑客2</a></li></ul><hr><h3 id="数据挖掘、推荐算法参考资料"><a href="#数据挖掘、推荐算法参考资料" class="headerlink" title="数据挖掘、推荐算法参考资料"></a>数据挖掘、推荐算法参考资料</h3><h4 id="基本技术栈-1"><a href="#基本技术栈-1" class="headerlink" title="基本技术栈"></a>基本技术栈</h4><ol><li><strong>基本的SQL取数能力</strong>：Hive-SQL、MySQL；</li><li><strong>简单的Linux基础</strong>；</li><li><strong>较好的数据结构算法基础及工程能力</strong>：数据结构学习、剑指offer、leetcode、python学习、Scala或者Java学习；</li><li><strong>熟练掌握常用的机器学习算法及实际应用过程</strong>：例如集成学习、推荐算法等；</li><li><strong>大数据比赛经历</strong>；</li><li><strong>掌握基本深度学习算法及应用工具</strong>：CNN、RNN等，keras、TensorFlow等；</li></ol><h4 id="推荐资料下载-1"><a href="#推荐资料下载-1" class="headerlink" title="推荐资料下载"></a>推荐资料下载</h4><ul><li>数据结构python语言描述 <a href="http://pb0xohu5g.bkt.clouddn.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20Python%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0_%E8%A3%98%E5%AE%97%E7%87%95.pdf" target="_blank" rel="noopener">书</a> <a href="https://www.bilibili.com/video/av20982396" target="_blank" rel="noopener">视频1</a> <a href="https://www.bilibili.com/video/av21540971" target="_blank" rel="noopener">视频2</a> <a href="http://pb0xohu5g.bkt.clouddn.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%BD%91%E9%A1%B5%E7%89%88.zip" target="_blank" rel="noopener">网页</a> <a href="http://pb0xohu5g.bkt.clouddn.com/AlgorithmsByPython.zip" target="_blank" rel="noopener">代码示范</a></li><li><a href="https://www.nowcoder.com/ta/coding-interviews" target="_blank" rel="noopener">剑指offer</a>、<a href="https://leetcode-cn.com/problemset/all/" target="_blank" rel="noopener">leetcode</a></li><li><a href="http://pb0xohu5g.bkt.clouddn.com/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%AE%9E%E8%B7%B5.pdf" target="_blank" rel="noopener">推荐算法实战</a></li><li><a href="https://www.bilibili.com/video/av10590361" target="_blank" rel="noopener">李宏毅机器学习</a>、<a href="https://www.bilibili.com/video/av9770302" target="_blank" rel="noopener">李宏毅深度学习</a></li><li>吴恩达深度学习 <a href="http://pb0xohu5g.bkt.clouddn.com/deeplearning_ai_books-master.zip" target="_blank" rel="noopener">笔记</a></li></ul><hr><p>另外，推荐两本新书：百面机器学习、美团机器学习实战 <br><br>还有几个学习网站：<a href="https://www.nowcoder.com" target="_blank" rel="noopener">牛客网</a>（刷题求职）、<a href="https://www.shiyanlou.com/" target="_blank" rel="noopener">实验楼</a>、<a href="https://www.imooc.com/" target="_blank" rel="noopener">慕课网</a>、<a href="http://www.w3school.com.cn/" target="_blank" rel="noopener">w3school</a> 、<a href="http://linux.vbird.org/" target="_blank" rel="noopener">鸟哥私房菜</a><br><br>大数据竞赛网站：<a href="https://tianchi.aliyun.com/competition/index.htm" target="_blank" rel="noopener">天池</a>、<a href="https://www.datafountain.cn/" target="_blank" rel="noopener">datafountain</a>、<a href="http://www.pkbigdata.com/" target="_blank" rel="noopener">pkbigdata</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;数据分析参考资料&quot;&gt;&lt;a href=&quot;#数据分析参考资料&quot; class=&quot;headerlink&quot; title=&quot;数据分析参考资料&quot;&gt;&lt;/a&gt;数据分析参考资料&lt;/h3&gt;&lt;h4 id=&quot;基本技术栈&quot;&gt;&lt;a href=&quot;#基本技术栈&quot; class=&quot;headerlink
-      
-    
-    </summary>
-    
-      <category term="学习资料" scheme="http://dzrx1020.com/categories/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/"/>
-    
-    
-      <category term="数据分析" scheme="http://dzrx1020.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    
-      <category term="算法工程师" scheme="http://dzrx1020.com/tags/%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据分析方法论：（一）数据分析的价值</title>
-    <link href="http://dzrx1020.com/2018/09/11/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95%E8%AE%BA%EF%BC%9A%EF%BC%88%E4%B8%80%EF%BC%89%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E7%9A%84%E4%BB%B7%E5%80%BC/"/>
-    <id>http://dzrx1020.com/2018/09/11/数据分析方法论：（一）数据分析的价值/</id>
-    <published>2018-09-11T07:49:47.000Z</published>
-    <updated>2018-09-11T07:50:39.949Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="如何利用数据驱动更好的决策？"><a href="#如何利用数据驱动更好的决策？" class="headerlink" title="如何利用数据驱动更好的决策？"></a>如何利用数据驱动更好的决策？</h3><ul><li>数据分析的目的是以量化的角度去分析业务问题并得出结论。　<br></li><li>量化的重点：寻找能反映业务水平的关键指标</li><li>分析的角度：找到合适测试比较方法<br><br></li></ul><hr><h5 id="一、什么是好的指标？"><a href="#一、什么是好的指标？" class="headerlink" title="一、什么是好的指标？"></a>一、什么是好的指标？</h5><p>好的指标常常具备的特性：</p><ol><li>可比性：在同一维度下可以比较</li><li>简单易懂</li><li>往往是比率指标</li><li>可以付诸行动，影响下一步决策   <br></li></ol><p>注意五点：</p><ul><li>定量数据排斥主观因素；定性数据吸纳主观因素</li><li>避免虚荣指标（与核心业务偏离很远的指标），寻找可付诸行动的指标（活跃用户占比就比活跃用户更好）</li><li>探索性指标往往会带来机遇（通过探索，发掘我们不知道我们不知道的现象）</li><li>后见性和先见性的数据都可以指导行动，区别只是先见性数据能预示将来会发生什么，缩短迭代周期，精益求精</li><li>在两个数据指标之间发现相关性不是一件坏事，发现相关性可以帮助你预测未来，而发现因果关系意味着你可以改变未来（A/B test实验）</li><li>根据实际的情况，调整初期设定的指标目标阈值；</li></ul><hr><h5 id="二、如何使用恰当的分析方法分析指标，得出结论知道决策？"><a href="#二、如何使用恰当的分析方法分析指标，得出结论知道决策？" class="headerlink" title="二、如何使用恰当的分析方法分析指标，得出结论知道决策？"></a>二、如何使用恰当的分析方法分析指标，得出结论知道决策？</h5><p>常用的四种分析思维：</p><ol><li>市场细分：通过分析用户之间各个所属特征属性，挖掘出拥有某种共同特征的用户群，从而比较不同细分群体在某个指标下的差异；</li><li>同期群分析：以时间为分析维度，跟踪用户的生命周期，比较处于“同阶段”时期的用户群体之间的指标差异；</li><li>AB测试：假设其他条件保持不变，仅考虑体验中的某一属性（如链接的颜色）对被试用户相关指标值的影响；</li><li>多变量分析：同时改变产品的多个属性，运用统计学方法检验哪个变量与结果指标的相关性最大；</li></ol><hr><h5 id="三、如何设计一个精益画布？"><a href="#三、如何设计一个精益画布？" class="headerlink" title="三、如何设计一个精益画布？"></a>三、如何设计一个精益画布？</h5><p>精益画布好比一个简明的可视化商业说明书：</p><p><img src="http://pb0xohu5g.bkt.clouddn.com/18-8-28/67532759.jpg" alt=""></p><ol><li>提出想解决哪方面的问题；</li><li>客户群体分类：目标市场是什么？</li><li>独特卖点：产品的特别之处？</li><li>解决问题的方案；</li><li>渠道分析；</li><li>收入分析；</li><li>成本分析；</li><li>关键指标；</li><li>门槛优势；</li></ol>]]></content>
+    <content type="html"><![CDATA[<p>开始记录自己的生活吧！</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;如何利用数据驱动更好的决策？&quot;&gt;&lt;a href=&quot;#如何利用数据驱动更好的决策？&quot; class=&quot;headerlink&quot; title=&quot;如何利用数据驱动更好的决策？&quot;&gt;&lt;/a&gt;如何利用数据驱动更好的决策？&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;数据分析的目的是以量化的角度去分
+        &lt;p&gt;开始记录自己的生活吧！&lt;/p&gt;
+
       
     
     </summary>
     
-      <category term="数据分析" scheme="http://dzrx1020.com/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+      <category term="随笔" scheme="http://dzrx1020.com/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="指标设计要点" scheme="http://dzrx1020.com/tags/%E6%8C%87%E6%A0%87%E8%AE%BE%E8%AE%A1%E8%A6%81%E7%82%B9/"/>
-    
-      <category term="常见分析方法" scheme="http://dzrx1020.com/tags/%E5%B8%B8%E8%A7%81%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据分析方法论：（二）指导创业的常见数据分析框架</title>
-    <link href="http://dzrx1020.com/2018/09/11/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95%E8%AE%BA%EF%BC%9A%EF%BC%88%E4%BA%8C%EF%BC%89%E6%8C%87%E5%AF%BC%E5%88%9B%E4%B8%9A%E7%9A%84%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6/"/>
-    <id>http://dzrx1020.com/2018/09/11/数据分析方法论：（二）指导创业的常见数据分析框架/</id>
-    <published>2018-09-11T07:35:11.000Z</published>
-    <updated>2018-09-11T07:38:30.534Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="指导创业的常见数据分析框架"><a href="#指导创业的常见数据分析框架" class="headerlink" title="指导创业的常见数据分析框架"></a>指导创业的常见数据分析框架</h3><hr><p>分析框架：以某些视角分析创业的生命周期，提出一系列值得关注的数据指标和领域 <br></p><p>常见的分析框架：</p><ol><li>海盗指标说</li><li>增长引擎说</li><li>精益创业画布</li><li>创业增长金字塔</li><li>长漏斗</li></ol><hr><h4 id="一、海盗指标说"><a href="#一、海盗指标说" class="headerlink" title="一、海盗指标说"></a>一、海盗指标说</h4><ul><li><strong>获取用户</strong>（流量、提及量、CPC（Cost Per Click，每次点击费用）、搜索结果、用户获取成本、点开率 ）</li><li><strong>提高活跃度</strong>（注册人数、注册量、新手教程完成量、至少用过一次产品的人数、订阅量 ）</li><li><strong>提高留存率</strong>（用户参与度、距上次登录的时间、日/月活跃使用量、流失率 ）</li><li><strong>获取营收</strong>（客户终生价值、（免费到付费）转化率、平均购物车大小、广告点入营收）</li><li><strong>自传播</strong>（邀请发送量、病毒式传播、病毒传播周期）</li></ul><hr><h4 id="二、增长引擎说"><a href="#二、增长引擎说" class="headerlink" title="二、增长引擎说"></a>二、增长引擎说</h4><ul><li>黏着式增长引擎：让用户成为回头客，并且持续使用你的产品<br><br>相关指标：客户留存率、距上次登录的时间等<br></li><li>病毒式增长引擎：<strong>病毒式传播系数</strong>，即每个用户所带来的新用户数，用户完成一次邀请所需的时间（或叫病毒传播周期）以及病毒性的类别</li><li>付费式增长引擎：客户终生价值（CLV）和客户获取成本（CAC），收回获取一位客户的成本所需的时间</li></ul><hr><h4 id="三、精益创业画布"><a href="#三、精益创业画布" class="headerlink" title="三、精益创业画布"></a>三、精益创业画布</h4><ul><li>问题：调查对象中具有该需求的人数，知道自己具有该需求的人数</li><li>解决方案：调查对象中试用了最小可行化产品的人数、用户参与度、流失率、最常被使用的/最不常被使用的功能、愿意付费使用的人数 </li><li>独特卖点：用户反馈得分、第三方独立评分、情感分析、客户如何描述你的产品、调查问卷、搜索、调研，以及竞争分析 </li><li>客户群体分类：在该群体中找到潜在客户的难易程度，独特的搜索关键字，从特定源头导入的精准渠道流量 </li><li>渠道：每个渠道可导入的销售线索及客户量、病毒式传播系数和病毒传播周期、净推介值、打开率、利润率、点入率、网页排名、消息到达率 </li><li>门槛优势：调查对象对独特卖点的理解、专利、品牌价值、进入壁垒、新入口的数量、独家“关系” </li><li>营收分析：客户终生价值，每用户平均收入（ARPU），转化率，购物车大小，点入率</li><li>成本分析：固定成本，客户获取成本，服务第n名客户的成本，客服成本，关键字广告成本</li></ul><hr><h4 id="注意！框架涉及的指标太多，往往需要把注意力放在“第一关键指标”："><a href="#注意！框架涉及的指标太多，往往需要把注意力放在“第一关键指标”：" class="headerlink" title="注意！框架涉及的指标太多，往往需要把注意力放在“第一关键指标”："></a>注意！框架涉及的指标太多，往往需要把注意力放在“第一关键指标”：</h4><ol><li>它回答了现阶段最重要的问题</li><li>它促使你得出初始（区别创业成败的）基线</li><li>它关注的是整个公司层面的健康</li><li>它鼓励一种实验文化<br>（简单、即时、可行动的、可比较的、根本性）</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;指导创业的常见数据分析框架&quot;&gt;&lt;a href=&quot;#指导创业的常见数据分析框架&quot; class=&quot;headerlink&quot; title=&quot;指导创业的常见数据分析框架&quot;&gt;&lt;/a&gt;指导创业的常见数据分析框架&lt;/h3&gt;&lt;hr&gt;
-&lt;p&gt;分析框架：以某些视角分析创业的生命周期，提
-      
-    
-    </summary>
-    
-      <category term="数据分析" scheme="http://dzrx1020.com/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    
-    
-      <category term="分析框架简介" scheme="http://dzrx1020.com/tags/%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6%E7%AE%80%E4%BB%8B/"/>
-    
-      <category term="第一关键指标" scheme="http://dzrx1020.com/tags/%E7%AC%AC%E4%B8%80%E5%85%B3%E9%94%AE%E6%8C%87%E6%A0%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>机器学习总结：打卡（1）</title>
-    <link href="http://dzrx1020.com/2018/09/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%9A%E6%89%93%E5%8D%A1%EF%BC%881%EF%BC%89/"/>
-    <id>http://dzrx1020.com/2018/09/11/机器学习总结：打卡（1）/</id>
-    <published>2018-09-11T07:29:35.000Z</published>
-    <updated>2018-09-12T02:37:07.023Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>前言</strong>：机器学习常见知识点总结（1~5）</p><h3 id="1、什么是生成模型与判别模型？"><a href="#1、什么是生成模型与判别模型？" class="headerlink" title="1、什么是生成模型与判别模型？"></a>1、什么是生成模型与判别模型？</h3><p>监督学习的一个基本假设就是输入与输出的随机变量遵循一个联合概率，生成模型（朴素贝叶斯、隐马尔科夫模型）是指通过数据来学习输入与输出的联合概率分布，然后以此求出条件概率，作为学习得来的预测模型，而判别模型则是由数据直接学习决策函数，作为预测模型。</p><h3 id="2、什么是过拟合与欠拟合？"><a href="#2、什么是过拟合与欠拟合？" class="headerlink" title="2、什么是过拟合与欠拟合？"></a>2、什么是过拟合与欠拟合？</h3><p>从误差角度来看，欠拟合是模型的训练误差较大，过拟合则是训练误差很小，但测试误差很大。从模型的偏差、方差角度来看，欠拟合就是模型的偏差很大，而过拟合就是模型的方差较大（偏差：模型的期望输出与真实值之间的差异；方差：不同训练集得到的模型的输出与这些输出的期望之间的差异）；<br></p><h3 id="3、如何解决欠拟合与过拟合？"><a href="#3、如何解决欠拟合与过拟合？" class="headerlink" title="3、如何解决欠拟合与过拟合？"></a>3、如何解决欠拟合与过拟合？</h3><p>（1）欠拟合：<br></p><ul><li>模型复杂化：增加模型的复杂度或者用复杂的模型代替简单的模型</li><li>增加特征：挖掘出具有强表达力的特征</li><li>降低正则约束</li><li>调整超参数<br></li></ul><p>（2）过拟合：<br></p><ul><li>增加训练数据集，清洗数据，去除噪声，保证测试与训练集的数据分布一致</li><li>为代价函数增加正则项（结构风险最小化）</li><li>减少特征数量</li><li>提前结束训练：记录模型训练效果，若提升不明显，则停止模型训练</li><li>Dropout：适用于神经网络中，即按一定的比例去除隐藏层的神经单元，使神经网络的结构简单化</li></ul><h3 id="4、L1、L2正则化为什么能防止过拟合？以及他们的区别？"><a href="#4、L1、L2正则化为什么能防止过拟合？以及他们的区别？" class="headerlink" title="4、L1、L2正则化为什么能防止过拟合？以及他们的区别？"></a>4、L1、L2正则化为什么能防止过拟合？以及他们的区别？</h3><p>（1）正则化是结构风险最小化的一种实现方式，是模型经验风险和模型复杂的权衡，使得模型的经验风险以及复杂度都比较小，符合奥卡姆剃刀原则，得到泛化能力更好的模型。（L0是NP难问题，L1是L0的最优凸近似）L1的效果是得到稀疏的参数空间，可以实现特征的自动选择，让模型更具有解释性（具备防止过拟合的效果）。而L2的效果则是让参数更加的平滑，让更多参数接近于0，而非直接等于0，起到很好的防止过拟合效果，以及conditionnumber不好的情况下矩阵求逆很困难的问题。<br><br>（2）区别在于L1是将参数更加稀疏，而L2是将参数更加平滑。<br><br>以一个凸优化的目标函数为例，<br><br><strong>从凸优化的求解过程可知</strong>，局部最小就是全局最小，也就是目标函数的极值点（该可导）或者某一点的左右倒数异号（该点不可导），L1是参数的绝对值（原点是极值点），总存在某个系数，使得目标函数的极值点为原点（原点左右两边异号），而L2的话，只要原函数原点的极值点不为零，其原点的导数值就不为零，只能不断地逼近零；<br><br><strong>从直观的图形解释的话</strong>，做出经验风险目标函数的等高图，L1的加入是添加了一个菱形，L2则是添加了一个圆形，都是以原点为中心，总的目标函数则是既要是等高线逼近中心，也要是L1、L2的坐标轴截点长越小，二者相切时肯定时最小的，L1的切点肯定是在坐标轴上，而L2的切点则不在坐标轴上；<br><br><strong>从贝叶斯先验概率的角度来讲</strong>，L1是假设参数服从标准的拉普拉斯分布（参数更大的概率等于0），L2则是服从标准的正态分布（参数更大的概率接近于零）。求解的过程就是利用先验概率、贝叶斯公式，以极大似然估计法求目标函数的最优值，化简得出式子就是L1、L2正则项。</p><h3 id="5、机器学习模型评估的方法与指标有哪些？"><a href="#5、机器学习模型评估的方法与指标有哪些？" class="headerlink" title="5、机器学习模型评估的方法与指标有哪些？"></a>5、机器学习模型评估的方法与指标有哪些？<br></h3><p>评估模型的标准往往是比较模型之间的泛化误差，这就设计到两个方面，一是设计合理的实验方法，去测量泛化误差，二是选择哪种度量指标进行误差度量。<br><br>（1）评估方法：留出法、交叉验证、自助法；<br><br>在初始数据量足够时，留出法、交叉验证更加常用，自助法多用于集成学习或者数据集较小的情况下，此时初始数据集中约有0.368的样本未被抽到。；<br><br>（2）误差度量指标：<br><br>分类任务：</p><ul><li>错误率与精度</li><li>查准率、查全率<br></li><li>混淆矩阵<br></li><li>F1得分<br></li><li>ROC与AUC值<br></li></ul><p>回归模型：<br></p><ul><li>平均误差（MSE、Rmse）</li><li>绝对误差（MAE，RAE）</li><li>R平方值</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;strong&gt;前言&lt;/strong&gt;：机器学习常见知识点总结（1~5）&lt;/p&gt;
-&lt;h3 id=&quot;1、什么是生成模型与判别模型？&quot;&gt;&lt;a href=&quot;#1、什么是生成模型与判别模型？&quot; class=&quot;headerlink&quot; title=&quot;1、什么是生成模型与判别模型？&quot;&gt;&lt;
-      
-    
-    </summary>
-    
-      <category term="机器学习" scheme="http://dzrx1020.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="欠拟合与过拟合" scheme="http://dzrx1020.com/tags/%E6%AC%A0%E6%8B%9F%E5%90%88%E4%B8%8E%E8%BF%87%E6%8B%9F%E5%90%88/"/>
-    
-      <category term="模型性能评价" scheme="http://dzrx1020.com/tags/%E6%A8%A1%E5%9E%8B%E6%80%A7%E8%83%BD%E8%AF%84%E4%BB%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>推荐系统实战（1）：什么是好的推荐系统</title>
-    <link href="http://dzrx1020.com/2018/08/01/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%AE%9E%E6%88%98%EF%BC%881%EF%BC%89%EF%BC%9A%E4%BB%80%E4%B9%88%E6%98%AF%E5%A5%BD%E7%9A%84%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/"/>
-    <id>http://dzrx1020.com/2018/08/01/推荐系统实战（1）：什么是好的推荐系统/</id>
-    <published>2018-08-01T08:28:09.000Z</published>
-    <updated>2018-08-01T08:31:45.456Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>前言：</strong> 本文是我在学习《推荐系统实战》以及相关推荐系统知识时的心得体会，仅供学习交流使用。</p><h2 id="一、什么是推荐系统？"><a href="#一、什么是推荐系统？" class="headerlink" title="一、什么是推荐系统？"></a>一、什么是推荐系统？</h2><p>在信息过载的时代，用户周围充斥这大量的信息，想要从中找到自己感兴趣的信息十分困难；同样的，对于信息制造者，让自己生产的信息脱颖而出，找到感兴趣的用户也是一件困难的事。  </p><p><strong>推荐系统，从本质上讲，就是自动联系用户与物品的工具，它可以帮助用户找到感兴趣的物品，也可将信息推送给对其感兴趣的用户。</strong> </p><p>推荐系统的价值则在于发掘长尾物品的价值，因为在传统的销售观念中，80%的销售额来源于20%的商品，主流商品代表了绝大多数用户的需求，而长尾商品往往代表了小部分人的需求，将长尾物品的商业价值最大化，就是推荐系统的价值所在。  </p><p>具体的推荐系统的实现，则是寻找恰当的桥梁将用户与物品相联系，常见的桥梁有社交、用户历史兴趣、物品自有属性、用户个人属性等。</p><h2 id="二、推荐系统常见的应用场景有哪些？"><a href="#二、推荐系统常见的应用场景有哪些？" class="headerlink" title="二、推荐系统常见的应用场景有哪些？"></a>二、推荐系统常见的应用场景有哪些？</h2><p>在互联网的各类网站中都有推荐系统的应用，尽管使用的推荐技术、应用的业务场景不同，但推荐系统应用的构成基本有如下三要素：<strong>前端展示页面、后端日志系统、推荐策略组合</strong>。  </p><p>例如在电子商务中，个性化推荐应用通常包括：用户历史兴趣推荐、用户社交推荐以及商品打包销售推荐；当然在视频电影网站、音乐电台网站、社交网络、个性化阅读、基于位置的服、个性化广告以及个性化邮件等领域都有所应用。其中音乐领域比较特殊，具有很多独特性：  </p><ul><li>物品空间大（相对于视频和书）</li><li>用户消费代价很小（时间上、经济上）</li><li><strong>物品重用率很高</strong></li><li><strong>用户使用充满激情（一个用户回听很多歌）</strong></li><li><strong>上下文相关（用户的处境影响听歌的选择）</strong></li><li>高度社会化（分享给朋友）</li><li>很多播放列表</li><li>次序很重要（用户播放是有次序的）</li></ul><h2 id="三、什么是好的推荐系统？"><a href="#三、什么是好的推荐系统？" class="headerlink" title="三、什么是好的推荐系统？"></a>三、什么是好的推荐系统？</h2><p>一个好的推荐系统往往是三方共赢的，对于用户方而言，可以找到更多自己真正感兴趣的物品；对于物品提供者而言，发掘了长尾商品的价值，获得了更高的商业价值；对于推荐系统而言，一个好的用户交互方式，能让推荐系统本身收集到更好的用户反馈，从而去提高推荐质量。好的推荐系统不仅仅能准确预测用户的行为，而且要拓展用户的视野，帮助其发现可能回感兴趣的商品。  </p><p>如何评价一个推荐系统的好坏呢？一是选择合适的实验方法，二是选择合适的评价指标。  </p><h3 id="1、评价的方法；"><a href="#1、评价的方法；" class="headerlink" title="1、评价的方法；"></a>1、评价的方法；</h3><p>常用的评价方法包括离线测试、用户调查以及在线测试。<br><strong>离线测试</strong>一般包括一下几个步骤：</p><ol><li>通过日志系统提取用户行为数据，按照一定格式生成标准的数据集；</li><li>将数据集划分为训练集和测试集；</li><li>在训练集上训练推荐模型，并在测试集上进行预测；</li><li>通过选择的评价指标对在测试集上的预测结果进行评价。<br>优缺点如下：<br><img src="http://pb0xohu5g.bkt.clouddn.com/18-8-1/81939853.jpg" alt="">  </li></ol><p><strong>用户调查</strong>就好比分层抽样+用户问卷调查的结合，具体的就是召集一批真实用户（注意用户群分布情况：年龄、性别、活活跃度），完成一些指定的任务后，询问一些设计好的问题，最后通过分析其行为和回答，了解推荐系统的性能效果。优点是可以获得用户的主管感受指标、相对于在线测试风险低，缺点是代价大（用户群小的话没有统计意义）、设计双盲实验困难大。  </p><p><strong>在线实验</strong>就是AB测试，也就是按一定规则将用户随机分成几组，不同组用不同的算法策略，对比各个组的评价指标情况。其有优点是公平地获得实际在线的性能指标、商业指标，缺点是只有周期长的情况下，才能获得可靠的性能指标。此外，一个大型网站的系统十分复杂，从推荐结果到展示给用户，往往需要多层，这些层由不同的团队控制，所以设计的AB测试系统也会很复杂。此时，有一个原则十分重要，那就是<strong>切分流量</strong>，不同团队获得的AB测试流量应统一管理，不同层级的流量且是正交的。　　</p><h3 id="2、评价的基本指标；"><a href="#2、评价的基本指标；" class="headerlink" title="2、评价的基本指标；　　"></a>2、评价的基本指标；　　</h3><p>（１）用户满意度：通常该指标无法通过离线测试获得，往往通过用户调查、在线实验获得。可以通过购买率、点击率、用户停留页面时间等等指标度量；　<br>（２）预测准确度：可以通过离线方式获得。下面介绍常用的统计指标：　</p><ul><li>评分预测：RSME和MAE<br><br>误差平法和：<br><br><img src="http://pb0xohu5g.bkt.clouddn.com/18-8-1/95303537.jpg" alt=""><br><br>平均绝对误差：<br>　<br><img src="http://pb0xohu5g.bkt.clouddn.com/18-8-1/96019287.jpg" alt=""><br><br>RSME比MAE更加严格，在评分取整时，预测结果往往会降低MAE。<br><br>　　<br></li><li>ＴｏｐＮ推荐<br><br>召回率：<br><br><img src="http://pb0xohu5g.bkt.clouddn.com/18-8-1/29012340.jpg" alt="">　<br><br>精确率：<br><br><img src="http://pb0xohu5g.bkt.clouddn.com/18-8-1/57512783.jpg" alt="">　<br><br>TOPN推荐更符合实际的应用需求，因为推荐的主要目的是为了预测用户是否敢兴趣，而不是给出多少评分　<br><br>　<br><br>（３）覆盖率　<br><br>普通的覆盖率：　<br><br><img src="http://pb0xohu5g.bkt.clouddn.com/18-8-1/28198773.jpg" alt="">　<br><br>信息熵：　<br><br><img src="http://pb0xohu5g.bkt.clouddn.com/18-8-1/21638840.jpg" alt="">　<br><br>基尼系数：　<br><br><img src="http://pb0xohu5g.bkt.clouddn.com/18-8-1/9967551.jpg" alt="">　<br><br>普通的覆盖率过于粗略，信息熵和基尼系数则更为具有代表性。此外，基尼系数的实际含义可以理解为最不热门的产品占总数量的比例，所以其越小，代表的覆盖率越大，所以也可以用来衡量推荐系统是否具有马太效应。<br>　<br><br>（４）多样性　<br><br>多样性描述了用户推荐列表里商品之间的不相似性，故可以通过计算用户推荐列表里的物品相似性来计算　<br><br>单个用户的推荐列表的多样性：　<br><br><img src="http://pb0xohu5g.bkt.clouddn.com/18-8-1/6626584.jpg" alt="">　<br><br>所有用户的多样性　<br><br><img src="http://pb0xohu5g.bkt.clouddn.com/18-8-1/61148478.jpg" alt="">　<br><br>需要注意推荐系统的多样性也要符合用户的历史兴趣习惯，保持分布上的大致相同。　<br><br>　<br><br>（５）新颖性　<br><br>通俗地说，就是推荐一些用户没有听说过的商品，最简单的方式是过滤已经使用过的商品，另一种则是推荐平均热度较低的商品；<br><br>　<br><br>（６）惊喜度　<br><br>惊喜度没有公认的定义标准，基本意思是推荐了一个与用户历史兴趣没有关系的商品，但却很受用户欢迎。也就是在提高推荐满意度的同时，降低推荐结果的历史相似度；　<br><br>　<br><br>（７）信任度　<br><br>以用户信任的方式推荐商品，需要增加推荐的透明度（提供解释）；　<br><br>　<br><br>（８）实时性　<br><br>两个方面，一是根据用户的及时行为，更新新的推荐结果，二是将新上架的物品推荐给用户；<br><br>　<br><br>（９）健壮性　<br><br>防止作弊与用户攻击，例如刷单等行为提高商品热度。一是用使用代价较高的用户行为建模，二是对攻击行为进行识别过滤脏数据；　<br><br>　<br><br>（１０）商业目标　<br><br>利用推荐系统加快商业目标的实现；　<br><br>　<br><br>关于部分指标的总结：　<br><br><img src="http://pb0xohu5g.bkt.clouddn.com/18-8-1/61738871.jpg" alt="">　<br><br>对于离线实验的优化目标，往往是在给定覆盖率、多样性以及新颖性的条件下，最大化预测准确率。　<br><br>　<br><h3 id="3、与评价维度结合—更清楚推荐系统性能；"><a href="#3、与评价维度结合—更清楚推荐系统性能；" class="headerlink" title="3、与评价维度结合—更清楚推荐系统性能；　"></a>3、与评价维度结合—更清楚推荐系统性能；　<br></h3>分析的本质是对比，对比的常用方法就是纵向和横向。在实际评价中，往往会将这些指标与评价维度相结合，去评价在具体情况下推荐系统的优良性：　<br></li><li>用户维度：人口学特征、活跃度、新旧用户情况等；　<br></li><li>物品维度：物品的自有属性（分类特征）、流行度、平均分、新旧情况；　<br></li><li>时间维度：季节、工作日节假日、白天还是晚上；　<br><br>　<br><br>以上就是本文的全部内容，欢迎批评指正！　<br><br>　<br><br>　<br></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;strong&gt;前言：&lt;/strong&gt; 本文是我在学习《推荐系统实战》以及相关推荐系统知识时的心得体会，仅供学习交流使用。&lt;/p&gt;
-&lt;h2 id=&quot;一、什么是推荐系统？&quot;&gt;&lt;a href=&quot;#一、什么是推荐系统？&quot; class=&quot;headerlink&quot; title=&quot;一、
-      
-    
-    </summary>
-    
-      <category term="推荐系统" scheme="http://dzrx1020.com/categories/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/"/>
-    
-    
-      <category term="推荐系统" scheme="http://dzrx1020.com/tags/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/"/>
-    
-      <category term="推荐效果评价指标" scheme="http://dzrx1020.com/tags/%E6%8E%A8%E8%8D%90%E6%95%88%E6%9E%9C%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>集成学习框架简介</title>
-    <link href="http://dzrx1020.com/2018/07/28/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E6%A1%86%E6%9E%B6%E7%AE%80%E4%BB%8B/"/>
-    <id>http://dzrx1020.com/2018/07/28/集成学习框架简介/</id>
-    <published>2018-07-28T01:51:43.000Z</published>
-    <updated>2018-07-28T02:05:28.057Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>前言</strong>：以下内容主要是本人在学习台大林轩田机器学习技法课程中模型融合部分以及《统计学习方法》相关内容的学习心得，且不涉及公式推导和证明部分。  </p><hr><h2 id="1-集成学习的动机与框架"><a href="#1-集成学习的动机与框架" class="headerlink" title="1.集成学习的动机与框架"></a>1.集成学习的动机与框架</h2><h3 id="（1）为什么要用集成学习？"><a href="#（1）为什么要用集成学习？" class="headerlink" title="（1）为什么要用集成学习？"></a>（1）为什么要用集成学习？</h3><p>集成学习是通过构建和组合多个较弱的学习器，得到一个较强的模型，是因为这样做有两个优点：<br><strong>第一，cure underfitting</strong>（降低偏差）：有助于防止欠拟合，它把所有弱的学习器融合起来，能达到提取组合特征的功能（每一个弱的学习器相当于组合提取了一次特征），起到了feature transform的作用，可以得到较为复杂的模型;<br><strong>第二，cure overfitting</strong>（降低方差）：有助于防止过拟合，把所有学到的学习器进行组合，将可能过拟合与欠拟合的学习器进行中和，容易得到一个中庸的模型，防止过拟合。  </p><h3 id="（2）集成学习的框架简介"><a href="#（2）集成学习的框架简介" class="headerlink" title="（2）集成学习的框架简介"></a>（2）集成学习的框架简介</h3><p>按照集成学习组合策略方式的不同，可以将集成学习分为三类：<strong>uniform</strong>、<strong>non-uniform</strong>和<strong>conditional。</strong>（我们可以简单地理解为每人一票且同样重要、每人一票但要加权、看情况选择部分人加权投票）  </p><p>从集成学习的定义可以看出，我们需要两步，一是得到不同的学习器g(t)，二是使用策略组合得到的g(t)。我们称第二步的过程为blending，在g(t)已知的情况下，blending对应的分类如下：  </p><table><thead><tr><th>aggregation</th><th>blending</th></tr></thead><tbody><tr><td>uniform</td><td>voting/averaging</td></tr><tr><td>non-uniform</td><td>linear</td></tr><tr><td>conditional</td><td>stacking</td></tr></tbody></table><p>可以证明使用voting的blending策略组合g(t)可以得到更好的模型（主要是从期望角度证明了，平均组合后的G(t)可以降低模型的方差，能得到更加稳定的模型），而linear策略的本质则是通过线性变换达到feature transform的作用，stacking则是非线性变换（此策略可以得到更为复杂的模型，所以应该注意防止过拟合）。  </p><p>那么在g(t)未知的情况，如何才能得到不同的g(t)？<br>通常情况下，可以选取模型、设置不同的参数、不同的样本数据等方法获得。但通常情况下，我们只有一份数据集，此时可以借鉴统计学中boostrap思想，利用已知的样本数据，通过放回的重抽样方法，获得不同的样本数据集。  </p><p>回到集成学习的具体实现上，我们需要获得不同的g(t)，并使用策略进行组合，我们将这整个过程成为learing。使用不同blending策略，对应着不同的learing方法。  </p><p>接下来可以通过三种代表性的learing方法，来实现集成学习。 </p><hr><h2 id="2-集成学习的初阶实现"><a href="#2-集成学习的初阶实现" class="headerlink" title="2.集成学习的初阶实现"></a>2.集成学习的初阶实现</h2><table><thead><tr><th>aggregation</th><th>blending</th><th>learing</th></tr></thead><tbody><tr><td>uniform</td><td>voting/averaging</td><td>bagging</td></tr><tr><td>non-uniform</td><td>linear</td><td>boosting</td></tr><tr><td>conditional</td><td>stacking</td><td>Decision Tree</td></tr></tbody></table><h3 id="（1）bagging"><a href="#（1）bagging" class="headerlink" title="（1）bagging"></a>（1）bagging</h3><p>正如第一部分所讲的，bagging其实就是利用boostrap方法对数据集进行重抽样，获得多个数据集，以多个数据集为基础，训练得到多个学习器g(t)，最后通过平均化形成最终的模型，直观地讲，在回归问题上是对每个最终结果求平均，在分类问题上则是多数表决原则。由于只使用bagging一直方法的情况很少，故此处不再赘述。  </p><h3 id="（2）boosting"><a href="#（2）boosting" class="headerlink" title="（2）boosting"></a>（2）boosting</h3><p>boosting，顾名思义是通过迭代的方法不断提升组合模型的效果，也就是加法模型，最常见的就是adaboost。算法的一般步骤包括：<br>对于1,2,3,~,T轮迭代过程中,选择损失函数以及弱分类器g(t)后：<br>a.寻找能使损失函数最快降低的g(t)，及其对应的系数α；<br>b.更新加法模型后，再次进行a步骤。  </p><p>adaboost是用来解决二分类问题的，其损失函数为指数损失函数。通过每一轮模型的误分率来调整样本权重以获得下一步的新g(t)，并以此为基础来计算该轮g(t)的系数。  </p><p>按照李航老师的解释，可以将adaboost看成是<strong>损失函数是指数损失函数的前向分布算法</strong>(证明的话是先固定模型权重，证每轮更新的g(t)相等，然后再带入原式中，通过求偏导数，计算权重值)。 </p><p>按照林轩田老师的解释，可以将adaboost看成<strong>损失函数是指数损失、处理二分类问题的Gradient Boosting算法</strong>，这样的好处是可以方便引出下面的GBDT算法，此处的证明有两个个要点 ：  </p><p><strong>a.</strong> 第t+1轮的所有样本的权重和Z与前t轮模型的损失函数是相等的，此时可以将其看成是类似与svm中的margin，所以可以理解为每轮寻找适当的g(t)，使得Z变小<strong>（这里，李航老师给出了证明：adaboost的训练误差是小于所有轮权重和的乘积的，每轮的优化方向也是使得当前轮的Z最小）</strong>；  </p><p><strong>b.</strong> 利用梯度下降的思想，把函数看成向量，也就是说再向量空间里，先找到最好的更新函数，也就是该函数的负梯度方向，再寻找最优的下降步长；</p><p>此外，对于adaboost需要注意的是：<br>当每轮的g(t)的误分概率小于0.5时，其训练误差可以以指数速率下降。  </p><p>这里李航老师根据训练误差上界继续推导即可得证，而林轩田老师则是以VC bound角度来看，经过O(logN)轮次迭代，训练误差将会减小到0的程度。</p><p><strong>缺点：</strong>  对异常样本敏感，异常样本在迭代中可能会获得较高的权重，影响最终的强学习器的预测准确性。  </p><p><strong>优点：</strong> Adaboost作为分类器时，分类精度很高，作为简单的二元分类器时，构造简单，结果可理解。不容易发生过拟合  </p><p><strong>可以看出，boosting方法主要是减少模型的偏差。</strong></p><h3 id="（3）Decision-Tree"><a href="#（3）Decision-Tree" class="headerlink" title="（3）Decision Tree"></a>（3）Decision Tree</h3><p>为什么说Decision Tree对应的conditional条件的aggregation？  </p><p>简单来讲，对于任意一颗决策树，把每条路径看成是Qt(x)，与之对应的叶子节点看成是Gt(x)，那么该决策树就可以表示成的conditional条件的aggregation，具体如下：  </p><p><img src="http://pb0xohu5g.bkt.clouddn.com/18-7-26/6288396.jpg" alt="">  </p><p><strong>缺点：</strong> 预测结果缺乏平滑性，不适合处理高维稀疏数据  </p><p><strong>优点：</strong> 可解释性强、可处理混合类型特征、 具体伸缩不变性（不用归一化特征）、 有特征组合的作用、可自然地处理缺失值、对异常点鲁棒、有特征选择作用、可扩展性强，容易并行  </p><p>常见的决策树算法有ID３、C４.５和CART,具体的算法细节和注意点在另一篇文章中可以看到。（点此处）</p><hr><h2 id="3-集成学习的高阶实现"><a href="#3-集成学习的高阶实现" class="headerlink" title="3.集成学习的高阶实现"></a>3.集成学习的高阶实现</h2><p>从上面的讨论可以看出bagging主要是减少模型的方差，而boosting主要是减少模型的偏差，尝试将多个模型、策略再次组合，可以得到更加强健的模型。  </p><h3 id="（1）Random-Forest"><a href="#（1）Random-Forest" class="headerlink" title="（1）Random Forest"></a>（1）Random Forest</h3><p>将bagging与Decision Tree结合，就得到了Random Forest。<br>此处的bagging是bagging in everywhere：一是在抽取数据时用了Bagging(这里也导致了其另一个优良性：无需额外交叉验证)；二是在构建每一个决策树时，随机抽取一部分特征，起到了特征转换的作用；三可以用数组p进行线性组合，来保持特征多样性。  </p><p>两个特性：<br>第一，无需额外的交叉验证，用oob样本对应的决策树的平均预测值近似地代表最终预测值，通过该值的误差平方和近似地表示，最后模型的预测能力。可以证明oob（out  of bag）样本占比约为1/e;  </p><p>第二，通过random test进行特诊筛选（random test的思路是对于某个特征，用随机值代替原值，比较代替前后的模型表现，若无影响，则可以忽略），一般有两种方式进行random test，一时用已知的随机分布例如高斯分布去代替，二是将该特征的原始值进行打乱重排，也就是permutation test（随机排序测试）。后者显然更科学，因为没有改变原始分布情况。random forest为了减少计算量，直接对比oob样本的ermutation test后的模型表现，做出特征筛选。</p><p><strong>缺点：</strong>  随机森林在解决回归问题时，并没有像它在分类中表现的那么好，这是因为它并不能给出一个连续的输出。当进行回归时，随机森林不能够做出超越训练集数据范围的预测，这可能导致在某些特定噪声的数据进行建模时出现过度拟合。（PS:随机森林已经被证明在某些噪音较大的分类或者回归问题上回过拟合）。  </p><p>对于小数据或者低维数据（特征较少的数据），可能不能产生很好的分类。  </p><p><strong>优点：</strong> 随机森林算法有很强的抗干扰能力：对于不平衡数据集来说，随机森林可以平衡误差。如果有很大一部分的特征遗失，用RF算法仍然可以维持准确度。  </p><p>随机森林抗过拟合能力比较强：对generlization error(泛化误差)使用的是无偏估计模型。  </p><h3 id="（2）GBDT、XGboost、LightGBM以及Catboost"><a href="#（2）GBDT、XGboost、LightGBM以及Catboost" class="headerlink" title="（2）GBDT、XGboost、LightGBM以及Catboost"></a>（2）GBDT、XGboost、LightGBM以及Catboost</h3><h5 id="GBDT"><a href="#GBDT" class="headerlink" title="GBDT"></a>GBDT</h5><p>具体得算法步骤如下：  </p><p><img src="http://pb0xohu5g.bkt.clouddn.com/18-7-26/23486876.jpg" alt="">  </p><p>取g(t)为cart决策回归树时，就是GBDT了。当损失函数为误差平方和时，解决的时回归问题，当损失函数时Log-Likehood 是，解决的是分类问题。  </p><p>注意：每次更新的g(t)是损失函数的负梯度方向（利用了损失函数一阶导数信息）。  </p><p><strong>缺点：</strong>  boosting是个串行的过程，所以并行麻烦，需要考虑上下树之间的联系，计算复杂度大，不适合高维稀疏特征</p><p><strong>优点：</strong> 能适应多种损失函数，不需要做特征的归一化，可以自动选择特征，模型可解释性好等等</p><h5 id="XGboost"><a href="#XGboost" class="headerlink" title="XGboost"></a>XGboost</h5><p>XGboost可以看作时GBDT的高效的实现版本，相比于GBDT其损失函数中添加了正则项：对每棵树的复杂的进行了惩罚，具体如下所示：  </p><p><img src="http://pb0xohu5g.bkt.clouddn.com/18-7-27/91427960.jpg" alt="">  </p><p>此外，在优化目标函数时，使用了其二阶导数的信息，也就是牛顿法求最小（二阶泰勒展开）。</p><p>关于XGboostd的详细问题，例如树结构确定方法（贪心法）、打分函数、树节点分裂方法、稀疏值处理、行采样、列采样、学习率（Shrinkage）、 支持自定义损失函数（需二阶可导）等，可在这里查看（插个眼）  </p><p><strong>注意：</strong>XGBoost无法单独处理分类特征，它是基于CART的，所以只接收数值。在把分类数据提供给算法前，我们先得执行各种编码，如标签编码、均值编码、独热编码等。  </p><p>LightGBM与XGBoost相比，速度更快，内存占用更低。<br>改进的地方：利用直方图算法减小内存占用和计算增益的计算量、建树过程优化Leaf-wise（基于梯度的单侧采样（GOSS）不依赖剪枝）、并行优化（特征并行【避免广播instance indices，减小网络通信量，但单个worker运算代价高】、数据并行【直方图算法，减少通信量】）  </p><p>catboost和LightGBM类似，更适合处理含有分类特征的数据，CatBoost在分类变量索引方面具有相当的灵活性，它可以用在各种统计上的分类特征和数值特征的组合将分类值编码成数字（one_hot_max_size：如果feature包含的不同值的数目超过了指定值，将feature转化为float）。LightGBM也可以通过输入特征名称来处理分类特征。它无需进行独热编码（one-hot coding），而是使用一种特殊的算法直接查找分类特征的拆分值，最后不仅效果相似，而且速度更快。  </p><p>以下列出三者部分参数的区别：  </p><p><img src="http://pb0xohu5g.bkt.clouddn.com/18-7-27/69726618.jpg" alt="">  </p><p>（来源于互联网，图侵删）</p><p>以上是本文的全部内容，学的都是些皮毛，肯定存在很多错误，欢迎讨论指教！  </p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;strong&gt;前言&lt;/strong&gt;：以下内容主要是本人在学习台大林轩田机器学习技法课程中模型融合部分以及《统计学习方法》相关内容的学习心得，且不涉及公式推导和证明部分。  &lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;1-集成学习的动机与框架&quot;&gt;&lt;a href=&quot;#1-集成学习的
-      
-    
-    </summary>
-    
-      <category term="机器学习" scheme="http://dzrx1020.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="集成学习" scheme="http://dzrx1020.com/tags/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0/"/>
-    
-      <category term="boosting" scheme="http://dzrx1020.com/tags/boosting/"/>
-    
-      <category term="bagging" scheme="http://dzrx1020.com/tags/bagging/"/>
+      <category term="test" scheme="http://dzrx1020.com/tags/test/"/>
     
   </entry>
   
