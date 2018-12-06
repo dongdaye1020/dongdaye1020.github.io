@@ -2065,7 +2065,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff93;
+  background: #ff5bc8;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3260,7 +3260,7 @@ img:hover {
   }
 }
 body {
-  background: url("https://dzrx1020-1256808058.cos.ap-shanghai.myqcloud.com/image/backgroud.jpg");
+  background: url("/images/backgroud.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
